@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Carro" representedClassName="Carro" syncable="YES" codeGenerationType="class">
+        <attribute name="ano" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="consumoCidade" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="consumoRodovia" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fabricante" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="placa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qtdEixos" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tamanhoTanque" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relacionamento1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Usuarios" inverseName="relacionamento1" inverseEntity="Usuarios" syncable="YES"/>
+    </entity>
+    <entity name="Usuarios" representedClassName="Usuarios" syncable="YES" codeGenerationType="class">
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carros" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usuario" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relacionamento1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Carro" inverseName="relacionamento1" inverseEntity="Carro" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Carro" positionX="-54" positionY="9" width="128" height="210"/>
+        <element name="Usuarios" positionX="-247.84375" positionY="-5.7109375" width="127.04296875" height="150"/>
+    </elements>
 </model>

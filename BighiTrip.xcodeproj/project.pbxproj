@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9647450021670F1D00512FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964744FF21670F1D00512FFC /* AppDelegate.swift */; };
-		9647450221670F1D00512FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647450121670F1D00512FFC /* ViewController.swift */; };
+		4561C515007FB7644E97A333 /* Pods_BighiTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A3FC0E90A30304881AFA2 /* Pods_BighiTrip.framework */; };
+		961098E32167305300264BE6 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961098E22167305300264BE6 /* CadastroViewController.swift */; };
+		961098E52167312300264BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961098E42167312300264BE6 /* AppDelegate.swift */; };
+		962117F1216EEBB70024C70F /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962117F0216EEBB70024C70F /* PerfilViewController.swift */; };
+		962117F3216F01A70024C70F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962117F2216F01A70024C70F /* TabBarViewController.swift */; };
+		9647450221670F1D00512FFC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647450121670F1D00512FFC /* MainViewController.swift */; };
 		9647450521670F1D00512FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9647450321670F1D00512FFC /* Main.storyboard */; };
 		9647450821670F1D00512FFC /* BighiTrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9647450621670F1D00512FFC /* BighiTrip.xcdatamodeld */; };
 		9647450A21670F1F00512FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9647450921670F1F00512FFC /* Assets.xcassets */; };
 		9647450D21670F1F00512FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9647450B21670F1F00512FFC /* LaunchScreen.storyboard */; };
+		96A6AF57216DC9770083D5F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96A6AF56216DC9770083D5F4 /* GoogleService-Info.plist */; };
+		96F66C0D216EDD6000D86E3F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F66C0C216EDD6000D86E3F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A8C654DA47C6861F5F705B7 /* Pods-BighiTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BighiTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-BighiTrip/Pods-BighiTrip.release.xcconfig"; sourceTree = "<group>"; };
+		8BE3AF61391DED5817CA4E6A /* Pods-BighiTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BighiTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BighiTrip/Pods-BighiTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		961098E22167305300264BE6 /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		961098E42167312300264BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = /Users/lucasbighi/Documents/XCode/BighiTrip/BighiTrip/Entidades/AppDelegate.swift; sourceTree = "<absolute>"; };
+		962117F0216EEBB70024C70F /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		962117F2216F01A70024C70F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		964744FC21670F1D00512FFC /* BighiTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BighiTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		964744FF21670F1D00512FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9647450121670F1D00512FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9647450121670F1D00512FFC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9647450421670F1D00512FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9647450721670F1D00512FFC /* BighiTrip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BighiTrip.xcdatamodel; sourceTree = "<group>"; };
 		9647450921670F1F00512FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9647450C21670F1F00512FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9647450E21670F1F00512FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A6AF56216DC9770083D5F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96F66C0C216EDD6000D86E3F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E06A3FC0E90A30304881AFA2 /* Pods_BighiTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BighiTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4561C515007FB7644E97A333 /* Pods_BighiTrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9505008D2E5938D34BEC8269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3AF61391DED5817CA4E6A /* Pods-BighiTrip.debug.xcconfig */,
+				1A8C654DA47C6861F5F705B7 /* Pods-BighiTrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		964744F321670F1D00512FFC = {
 			isa = PBXGroup;
 			children = (
 				964744FE21670F1D00512FFC /* BighiTrip */,
 				964744FD21670F1D00512FFC /* Products */,
+				9505008D2E5938D34BEC8269 /* Pods */,
+				A26379A30B60915D3A856670 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,36 @@
 		964744FE21670F1D00512FFC /* BighiTrip */ = {
 			isa = PBXGroup;
 			children = (
-				964744FF21670F1D00512FFC /* AppDelegate.swift */,
-				9647450121670F1D00512FFC /* ViewController.swift */,
+				9647451C2167152000512FFC /* Entidades */,
+				961098E22167305300264BE6 /* CadastroViewController.swift */,
+				961098E42167312300264BE6 /* AppDelegate.swift */,
+				9647450121670F1D00512FFC /* MainViewController.swift */,
 				9647450321670F1D00512FFC /* Main.storyboard */,
+				962117F2216F01A70024C70F /* TabBarViewController.swift */,
+				962117F0216EEBB70024C70F /* PerfilViewController.swift */,
+				96F66C0C216EDD6000D86E3F /* HomeViewController.swift */,
 				9647450921670F1F00512FFC /* Assets.xcassets */,
 				9647450B21670F1F00512FFC /* LaunchScreen.storyboard */,
 				9647450E21670F1F00512FFC /* Info.plist */,
 				9647450621670F1D00512FFC /* BighiTrip.xcdatamodeld */,
+				96A6AF56216DC9770083D5F4 /* GoogleService-Info.plist */,
 			);
 			path = BighiTrip;
+			sourceTree = "<group>";
+		};
+		9647451C2167152000512FFC /* Entidades */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entidades;
+			sourceTree = "<group>";
+		};
+		A26379A30B60915D3A856670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E06A3FC0E90A30304881AFA2 /* Pods_BighiTrip.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9647451121670F1F00512FFC /* Build configuration list for PBXNativeTarget "BighiTrip" */;
 			buildPhases = (
+				100D6A6E54E5587A73EAD74E /* [CP] Check Pods Manifest.lock */,
 				964744F821670F1D00512FFC /* Sources */,
 				964744F921670F1D00512FFC /* Frameworks */,
 				964744FA21670F1D00512FFC /* Resources */,
+				3F756EEE185598C80C85D519 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9647450D21670F1F00512FFC /* LaunchScreen.storyboard in Resources */,
+				96A6AF57216DC9770083D5F4 /* GoogleService-Info.plist in Resources */,
 				9647450A21670F1F00512FFC /* Assets.xcassets in Resources */,
 				9647450521670F1D00512FFC /* Main.storyboard in Resources */,
 			);
@@ -133,14 +183,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		100D6A6E54E5587A73EAD74E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BighiTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F756EEE185598C80C85D519 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BighiTrip/Pods-BighiTrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BighiTrip/Pods-BighiTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		964744F821670F1D00512FFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962117F1216EEBB70024C70F /* PerfilViewController.swift in Sources */,
+				961098E52167312300264BE6 /* AppDelegate.swift in Sources */,
 				9647450821670F1D00512FFC /* BighiTrip.xcdatamodeld in Sources */,
-				9647450221670F1D00512FFC /* ViewController.swift in Sources */,
-				9647450021670F1D00512FFC /* AppDelegate.swift in Sources */,
+				9647450221670F1D00512FFC /* MainViewController.swift in Sources */,
+				962117F3216F01A70024C70F /* TabBarViewController.swift in Sources */,
+				96F66C0D216EDD6000D86E3F /* HomeViewController.swift in Sources */,
+				961098E32167305300264BE6 /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +391,7 @@
 		};
 		9647451221670F1F00512FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE3AF61391DED5817CA4E6A /* Pods-BighiTrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +410,7 @@
 		};
 		9647451321670F1F00512FFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8C654DA47C6861F5F705B7 /* Pods-BighiTrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

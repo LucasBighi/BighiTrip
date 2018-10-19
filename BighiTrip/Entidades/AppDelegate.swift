@@ -8,15 +8,37 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var viewController: UIViewController!
+    var storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        
+        if Auth.auth().currentUser != nil {
+            print("Logado")
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let tabBarViewController: TabBarViewController = mainStoryboard.instantiateViewController(withIdentifier: "tabView") as! TabBarViewController
+            self.window?.rootViewController = tabBarViewController
+            self.window?.makeKeyAndVisible()
+        } else {
+            print("Deslogado")
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let MainViewController: MainViewController = mainStoryboard.instantiateViewController(withIdentifier: "loginView") as! MainViewController
+            self.window?.rootViewController = MainViewController
+            self.window?.makeKeyAndVisible()
+        }
+        
         return true
     }
 
