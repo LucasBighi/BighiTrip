@@ -1,0 +1,6 @@
+framework module Pods_BighiTrip {
+  umbrella header "Pods-BighiTrip-umbrella.h"
+
+  export *
+  module * { export * }
+}
